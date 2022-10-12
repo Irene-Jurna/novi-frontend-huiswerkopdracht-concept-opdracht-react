@@ -1,4 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/*Kleurenpalet:*/
+/*Rood #dd3038;*/
+/*Oranje #e7613a;*/
+/*Licht oranje #FDF4F2;*/
+/*Zwart #292929 (voor standaard tekst);*/
+/*Wit #FFFFFF;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
+  font-family: 'Quicksand', sans-serif;
   font-size: 34px;
   color: crimson;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
 }
