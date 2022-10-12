@@ -13,6 +13,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #FDF4F2;
+}
 
 h1 {
   font-family: 'Quicksand', sans-serif;

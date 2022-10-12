@@ -5,21 +5,13 @@ import {useParams} from "react-router-dom";
 function Subreddit() {
     const { subredditId } = useParams();
 
-    useEffect(() => {
-        async function getSubredditId() {
-            try {
-
-            } catch {
-
-            }
-        }
-    })
+   // Maak hier je GET request
 
     return (
         <>
             <p>Subreddit page</p>
             <p>{subredditId}</p>
-            <p>Terug naar <Link to="/">Home</Link> </p>
+            <p>Take me back <Link to="/">Home</Link> </p>
         </>
     );
 }
