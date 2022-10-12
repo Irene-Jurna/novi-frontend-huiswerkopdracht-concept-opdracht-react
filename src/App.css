@@ -23,3 +23,13 @@ h1 {
 p {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+.active-link {
+  border-bottom: 2px solid #e7613a;
+}
+
+nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
