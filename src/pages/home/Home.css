@@ -1,7 +1,56 @@
-.post-card {
+.header-container {
+    background-color: #DD3038;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.subheader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.post-card-container {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    padding: 10px 250px;
+}
+
+.post-card-item {
     background-color: #FFFFFF;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    box-shadow: 5px 5px lightgray;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 34px;
+    color: #292929;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
 }
 
 h5 {
     color: #dd3038;
+}
+
+h6 {
+    font-size: 14px;
 }

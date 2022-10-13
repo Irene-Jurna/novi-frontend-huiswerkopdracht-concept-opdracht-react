@@ -5,7 +5,7 @@ import {useParams} from "react-router-dom";
 function Subreddit() {
     const { subredditId } = useParams();
 
-   // Maak hier je GET request
+   // Maak hier je GET request(met${subredditId}). https://www.reddit.com/r/$subredditId}/about.json
 
     return (
         <>

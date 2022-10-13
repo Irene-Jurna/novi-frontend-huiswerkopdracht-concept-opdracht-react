@@ -13,14 +13,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #FDF4F2;
 }
 
-h1 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 34px;
-  color: crimson;
+.nav-container {
+  background-color: #DD3038;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 250px;
+}
+
+li {
+  padding: 20px;
 }
 
 p {
@@ -29,10 +36,4 @@ p {
 
 .active-link {
   border-bottom: 2px solid #e7613a;
-}
-
-nav {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
 }

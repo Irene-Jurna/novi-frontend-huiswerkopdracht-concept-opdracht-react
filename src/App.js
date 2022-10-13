@@ -7,11 +7,10 @@ function App() {
 
     return (
         <>
-            <nav>
+            <nav className="nav-container">
                 <li><NavLink to="/" exact activeClassName="active-link">Hottest posts</NavLink></li>
                 <li><NavLink to="/subreddit/:subredditId" activeClassName="active-link">Reddit</NavLink></li>
             </nav>
-            <h1>Reddit</h1>
             <Switch>
                 <Route exact path="/">
                     <Home/>
