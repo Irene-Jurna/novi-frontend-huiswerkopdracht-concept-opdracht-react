@@ -40,12 +40,11 @@ function Home() {
             {hottestPosts.map((hottestPost) => {
                 return (
                     <article className="post-card-item" key={hottestPost.data.id}>
-                        <h3><Link to path={`www.reddit.com`}>{hottestPost.data.title}</Link></h3>
-                        <h5><Link to
-                                  path={`/subreddit/${hottestPost.data.subreddit}`}> {hottestPost.data.subreddit_name_prefixed}</Link>
-                        </h5>
-                        <p>Comments: {hottestPost.data.num_comments}</p>
-                        <p>Ups: {hottestPost.data.ups}</p>
+                        <h3><a href={hottestPost.data.url} target="_blank" className="title-links">{hottestPost.data.title}</a></h3>
+                        <div className="post-card-item-down">
+                            <Link to={`/subreddit/${hottestPost.data.subreddit}`}> {hottestPost.data.subreddit_name_prefixed}</Link>
+                        <p>Comments: {hottestPost.data.num_comments} - Ups: {hottestPost.data.ups}</p>
+                        </div>
                     </article>
                 )
             })}

@@ -1,5 +1,5 @@
 .header-container {
-    background-color: #DD3038;
+    background-image: linear-gradient(to right, #e7613a, #dd3038);
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -30,10 +30,23 @@
     background-color: #FFFFFF;
     width: 350px;
     height: 200px;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     flex-grow: 1;
     box-shadow: 5px 5px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-links {
+    color: #292929;
+    text-decoration: none;
+}
+
+a {
+    color: #dd3038;
+    font-weight: bold;
 }
 
 h1 {

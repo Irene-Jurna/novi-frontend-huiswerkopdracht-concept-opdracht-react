@@ -8,8 +8,8 @@ function App() {
     return (
         <>
             <nav className="nav-container">
-                <li><NavLink to="/" exact activeClassName="active-link">Hottest posts</NavLink></li>
-                <li><NavLink to="/subreddit/:subredditId" activeClassName="active-link">Reddit</NavLink></li>
+                <li><NavLink to="/" exact activeClassName="active-link" className="nav-link">Hottest posts</NavLink></li>
+                <li><NavLink to="/subreddit/:subredditId" activeClassName="active-link" className="nav-link">Reddit</NavLink></li>
             </nav>
             <Switch>
                 <Route exact path="/">

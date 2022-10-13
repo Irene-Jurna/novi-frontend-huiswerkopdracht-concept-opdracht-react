@@ -19,7 +19,7 @@ body {
 }
 
 .nav-container {
-  background-color: #DD3038;
+  background-image: linear-gradient(to right, #e7613a, #dd3038);
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -35,5 +35,10 @@ p {
 }
 
 .active-link {
-  border-bottom: 2px solid #e7613a;
+  color: #FFFFFF;
+}
+
+.nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
 }
